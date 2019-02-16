@@ -1,0 +1,85 @@
+img/logo.jpg {
+  width: 300px;
+  height: 200px;
+}
+
+header{
+  display: flex;
+  padding-left: 10px;
+  background-color: silver;
+}
+
+h1 {
+  font-family: 'Staatliches', cursive;
+  color: rgb(77, 109, 183);
+}
+
+h1:hover{
+  font-family: 'Staatliches', cursive;
+  color: rgb(240, 162, 6);
+}
+
+li{
+  height: 20px;
+  width: 150px;
+  border: 3px solid rgb(240, 162, 6);
+}
+
+.bg-kitchen{
+  background-image: url('../imgs/kitchen.jpg');
+}
+img/kitchen.jpg {
+  width: 410px;
+  height: 615px;
+}
+.bg-bath{
+  background-image: url('../imgs/bathroom.jpg');
+}
+img/bathroom.png {
+  width: 410px;
+  height: 615px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+h2{
+  color: rgba(77, 109, 183, 1);
+  margin-left: 150px;
+  font-family: 'Staatliches', cursive;
+}
+
+body {
+  border: 8px solid rgb(100, 100, 100);
+  background-color: rgba(212, 199, 174, .5);
+}
+
+ul {
+  background-color: silver;
+}
+
+main{
+  font: bold 15px serif;
+  border: 3px solid rgb(240, 162, 6);
+  margin: 10px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6em;
+}
+
+
+footer h4{
+  color: rgb(77, 109, 183);
+}
+
+aside{
+  height: 500px;
+  width:1000px;
+  background color: silver;
+}
